@@ -58,7 +58,9 @@ shoots, pets and outdoor sessions.
 11. **Git repository initialized** (branch `main`) with a curated `.gitignore`
     (excludes `app/node_modules`, `app/dist`, generated images, and `photos/`).
     Identity: `Bilal Aamer <bilalaamer90@gmail.com>`. Remote: GitHub —
-    `git@github.com:bilalaamer/bilalaamer-photography.git` (SSH key registered).
+    `git@github.com:bilalaamer/-bilalaamer-photography.git` (SSH key registered;
+    the repo name has a leading hyphen — rename it in GitHub settings any time
+    and update the remote with `git remote set-url`).
 12. **Portfolio presentation**: home "Selected Work" went through Skiper49 (coverflow
     carousel) and now uses a **3D reveal grid** recreating Skiper32 "Scroll images
     reveal 001" (the original is a **Pro** component — source is license-gated; the
