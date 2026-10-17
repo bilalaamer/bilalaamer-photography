@@ -96,12 +96,13 @@ EXIF-rotation-safe and auto-resized (thumbs 640 px, gallery 1600 px, banners 220
 
 **Developer mode:** in `app\`, run `E:\tools\node\npm.cmd run dev` (hot reload).
 
-**Deploying the live site:**
-- Double-click **`Make Deploy Zip.cmd`** → builds everything and produces
-  `bilalaamer-site.zip` (index.html + assets at the zip root).
-- Publish it by dragging the **zip** onto **https://app.netlify.com/drop** (Netlify Drop
-  accepts zip files — far more reliable than dragging the folder), or upload it in
-  Cloudflare Pages / your hosting dashboard. Re-upload after each rebuild to update.
+**Deploying the live site (GitHub Pages — live now):**
+- **Live URL: https://bilalaamer.github.io/bilalaamer-photography/** (the repo is
+  **public** — required for free GitHub Pages; your photos are NOT in the repo).
+- Double-click **`Deploy to GitHub Pages.cmd`** → processes photos, builds the site and
+  force-pushes a fresh `gh-pages` branch → live site updates in about a minute.
+- Alternative: **`Make Deploy Zip.cmd`** produces `bilalaamer-site.zip` for drag-and-drop
+  hosts (Netlify Drop / Cloudflare Pages) if you ever prefer those.
 - **GitHub**: repo `github.com/bilalaamer/bilalaamer-photography` (description + topics
   set). GitHub CLI (`gh`) is installed at `C:\Program Files\GitHub CLI\gh.exe` and
   authenticated as `bilalaamer`. Code updates: `git add -A` → `git commit -m "..."` →

@@ -3,7 +3,7 @@
 Portfolio website for **Bilal Aamer Photography** — a Dubai-based photographer covering
 weddings and celebrations, automobile shoots, pets and corporate events across the UAE.
 
-**Live site:** _add your hosted URL here_ (e.g. `https://bilalaamer.netlify.app`)
+**Live site:** https://bilalaamer.github.io/bilalaamer-photography/
 
 ## Pages
 
