@@ -1,0 +1,26 @@
+# Node / build artifacts
+app/node_modules/
+app/dist/
+
+# Synced copies of generated images (rebuilt by build.ps1)
+app/public/assets/
+
+# Generated web images (rebuild from photos/ with Update Website.cmd)
+assets/img/
+
+# Original photo drop folders (large binaries, personal media)
+photos/
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Archives
+*.zip
+
+# Loose photos dropped in the project root
+/*.JPG
+/*.jpg
+/*.jpeg
+/*.png
