@@ -57,8 +57,8 @@ shoots, pets and outdoor sessions.
     the home page alongside the Celebrations strip (alternating image sides).
 11. **Git repository initialized** (branch `main`) with a curated `.gitignore`
     (excludes `app/node_modules`, `app/dist`, generated images, and `photos/`).
-    Repo-local identity: `Bilal Aamer <hello@bilalaamer.com>` — change with
-    `git config user.email` if you use another address for GitHub.
+    Identity: `Bilal Aamer <bilalaamer90@gmail.com>`. Remote: GitHub —
+    `git@github.com:bilalaamer/bilalaamer-photography.git` (SSH key registered).
 12. **Portfolio presentation**: home "Selected Work" went through Skiper49 (coverflow
     carousel) and now uses a **3D reveal grid** recreating Skiper32 "Scroll images
     reveal 001" (the original is a **Pro** component — source is license-gated; the
@@ -108,9 +108,9 @@ EXIF-rotation-safe and auto-resized (thumbs 640 px, gallery 1600 px, banners 220
 | Tab labels / nav | `app\src\components\SiteHeader.tsx` + `SiteFooter.tsx` |
 | Skiper UI attribution (license requirement) | Footer credit line — **must stay** |
 
-**Contact placeholders — REPLACE NEXT TIME:**
-- Email is still `hello@bilalaamer.com` (**placeholder**).
-- Phone/WhatsApp is `+971 58 557 3305` — taken from the watermark on your photos;
+**Contact details:**
+- Email: `bilalaamer90@gmail.com` (set in `app\src\config.ts`).
+- Phone/WhatsApp: `+971 58 557 3305` — taken from the watermark on your photos;
   verify it's the correct business number.
 
 ---

@@ -5,7 +5,7 @@ export const config = {
   phoneDisplay: "+971 58 557 3305",
   tel: "tel:+971585573305",
   whatsapp: "https://wa.me/971585573305",
-  email: "hello@bilalaamer.com",
+  email: "bilalaamer90@gmail.com",
   instagram: "https://www.instagram.com/bilalaamer/",
   facebook: "https://www.facebook.com/bilalaamerphotography"
 };
